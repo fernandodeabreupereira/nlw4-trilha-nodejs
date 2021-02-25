@@ -7,7 +7,6 @@ app.get('/', (request, response) => {
 });
 
 app.post('/', (request, response) => {
-    // Recebeu dados para salvar
     return response.json({ message: 'Os dados foram salvos com sucesso!' });
 });
 
